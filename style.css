@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Notable&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    background-image: url("background.png");
+    background-size: cover; /* Ensure the background image covers the entire body */
+    background-position: center;
+    backdrop-filter: blur(10px); /* The glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0); /* Optional: subtle shadow inside the body */
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     
+} 
+
+
+.container{
+   width: auto;
+   height:auto;
+   display: flex;
+   justify-content: center;
+   background-color: white;
+   border-radius: 20px;
+   overflow: hidden;
+      
+} 
+
+.container.active{
+    display: none;
+}
+
+
+.ryt{
+    height: 100%;
+    margin-right: 1vw;
+    margin-top:0.7vh;
+   
+}
+.ryt img{
+    height: 100%;
+    height:400px;
+    object-fit:cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 10px #cdcdcd;
+}
+
+.lft{
+    padding:5px;
+    color:black;
+    margin-right: 1vw;
+    max-width: 400px;
+}
+
+.lft h2{
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    
+}
+
+.lft p{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color:grey;
+    text-align: center;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 17px;
+}
+
+.btns button{
+    width:150px;
+    height: 35px;
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid grey;
+    transition: 500ms ease;
+    border-radius: 15px;    
+    opacity: 0;
+}
+
+.btns button:hover{
+    background-color: black;
+    color:white;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.5);
+
+}
+
+.yesBtn.active{
+    opacity: 1;
+}
+
+.noBtn.active{
+    opacity: 1;
+}
+ 
+
+/*video close img div */
+.close{
+    position: relative;
+}
+
+
+/*video close img */
+.closeImg{
+}
+
+.videoContainer{
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    height: 400px;
+    position: absolute;
+    display: none;
+}
+
+.videoContainer.active{
+    display: flex;
+}
+
+.closeImg{
+    position: relative;
+    width:40px;
+    height:40px;
+    top:-10%;
+    right:-10%;
+}
+
+.increImg.active{
+    display: none;
+}
+
+.pSpan{
+    color:red;
+    font-weight: 900;
+}
