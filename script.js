@@ -95,7 +95,7 @@ const data = [
     },
     {
         image:"sideeye.jpg",
-        h2:"Apo no more Moon and Water girl girl jokes!",
+        h2:"Apo no more Moon and Water girl jokes!",
         p:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, asperiores! Laborum veniam maxime voluptate est atque<span class='pSpan'>No more mama works for moon and un frnd(Hasna)</span> animi corrupti obcaecati,magnam molestias ea ipsam eaque quo eius perspiciatis enim excepturi velit."
     },
     {
