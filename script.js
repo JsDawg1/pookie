@@ -84,7 +84,7 @@ const data = [
     },
     {
         image:"ques1.jpg",
-        h2:"Wanna by my pookie?",
+        h2:"Wanna be my pookie?",
         p:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, asperiores!  Laborum veniam maxime voluptate adverse in parforver<span class='pSpan'>TF you're searching a fcking reason to be my pookie?</span> est atque animi corrupti obcaecati,magnam molestias ea ipsam eaque quo eius perspiciatis enim excepturi velit."
 
     },
